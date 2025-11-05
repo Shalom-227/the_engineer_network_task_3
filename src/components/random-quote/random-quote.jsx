@@ -34,6 +34,8 @@ const RandomQuote = () => {
         setQuote(select);
     };
 
+
+
      
      return (
         <div className="container">
@@ -43,7 +45,7 @@ const RandomQuote = () => {
                 <div className="bottom">
                     <div className="author">{quote.author}</div>
                     <div className="icons">
-                        <img src={arrow_right} alt="" />
+                        <img src={arrow_right} onClick={random} alt="" />
                     </div>
                 </div>
             </div>

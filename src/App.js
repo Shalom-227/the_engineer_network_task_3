@@ -1,9 +1,12 @@
 
 import './App.css';
+import RandomQuote from './components/random-quote/random-quote';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
+      {/* mount RandomQuote component */}
+      <RandomQuote/>
     </div>
   );
 }

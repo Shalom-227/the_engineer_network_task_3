@@ -16,12 +16,11 @@ const RandomQuote = () => {
             author: "Ralph Waldo Emerson",
         },
      ];
-    return (
-    
-       
-    <div>
 
-    </div>)
+     const [quotes, setQuotes] = useState(localQuotes);
+     const [quote, setQuote] = useState(localQuotes[0]);
+     
+     return ()
         
 }
 

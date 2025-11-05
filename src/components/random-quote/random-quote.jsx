@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import "./random-quote.css"
 import arrow_right from "../assets/arrow-right.svg"
 
@@ -21,6 +21,12 @@ const RandomQuote = () => {
      const [quotes, setQuotes] = useState(localQuotes);
      const [quote, setQuote] = useState(localQuotes[0]);
      const [loading, setLoading] = useState(true);
+
+     useEffect(() => {
+             const loadQuotes = async () => {};
+             
+             loadQuotes(); 
+     }, []);
 
      
      return (

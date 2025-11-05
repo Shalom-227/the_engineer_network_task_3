@@ -1,5 +1,6 @@
 import React from 'react'
 import "./random-quote.css"
+import arrow_right from "../assets/arrow-right.svg"
 
 const RandomQuote = () => {
      const localQuotes = [
@@ -19,8 +20,23 @@ const RandomQuote = () => {
 
      const [quotes, setQuotes] = useState(localQuotes);
      const [quote, setQuote] = useState(localQuotes[0]);
+     const [loading, setLoading] = useState(true);
+
      
-     return ()
+    //  return (
+    //     <div className="container">
+    //         <div className="quote">{quote.text}</div>
+    //         <div>
+    //             <div className="line"></div>
+    //             <div className="bottom">
+    //                 <div className="author">{quote.author}</div>
+    //                 <div className="icons">
+    //                     <img src={arrow_right} alt="" />
+    //                 </div>
+    //             </div>
+    //         </div>
+    //     </div>
+    //  )
         
 }
 

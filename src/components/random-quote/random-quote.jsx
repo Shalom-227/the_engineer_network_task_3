@@ -28,6 +28,12 @@ const RandomQuote = () => {
              loadQuotes(); 
      }, []);
 
+     const random = () => {
+        if (quotes.length === 0) return; 
+        const select = quotes[Math.floor(Math.random()*quotes.length)];
+        setQuote(select);
+    };
+
      
      return (
         <div className="container">

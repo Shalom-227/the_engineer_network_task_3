@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import "./random-quote.css"
 import arrow_right from "../assets/arrow-right.svg"
+import "./random-quote.css"
+import "./media-queries.css"
 
 const RandomQuote = () => {
      const localQuotes = [
@@ -38,7 +39,7 @@ const RandomQuote = () => {
 
      
      return (
-        <div className="container">
+        <div className="quote-container">
             <div className="quote">{quote.text}</div>
             <div>
                 <div className="line"></div>

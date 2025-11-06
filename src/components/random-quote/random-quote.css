@@ -10,6 +10,11 @@ html {
     font-size: 62.5%;
 }
 
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 :root{
     --card-quote-colour: rgb(184, 134, 11);
     --card-background-colour: rgb(245, 245, 220);
@@ -18,30 +23,32 @@ html {
 }
 
 
-.container {
+.quote-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 15rem;
+    margin-top: 10em;
     max-width: 800px;
+    width: 90%;
     border-radius: 1.05%;
     background-color: var(--card-background-colour);
     position: relative;
+    
 }
 
 .quote {
     color: var(--card-quote-colour);
     padding: 5%;
     font-size: var(--font-size-lg);
-    margin: 1rem 12rem;
+    margin: 1em 2em;
     text-align: center;
 }
 
 .line {
-    height: 1.5px;
-    width: 500px;
+    height: 0.15rem;
+    min-width: 400px;
     background-color: var(--card-quote-colour);
     
 }
@@ -50,8 +57,8 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3rem 0;
-    padding-bottom: 2rem;
+    margin: 2em 0;
+    padding-bottom: 1.5em;
     
 }
 
@@ -69,4 +76,5 @@ html {
     height: 3rem;
     cursor: pointer;
 }
+
 

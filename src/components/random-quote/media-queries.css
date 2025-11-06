@@ -1,0 +1,117 @@
+@media(max-width: 55.4rem){    /* 855px / 16 = 53.4*/
+    html {
+        font-size: 60%;      /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 53.1rem){    /*850px / 16 = 53.4*/
+    html {
+        font-size: 58%;      /*58 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 51.4rem){   /* 822px / 16 = 53.4 */
+    html {
+        font-size: 56%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 49.6rem){   /* 794px / 16 = 49.6 */
+    html {
+        font-size: 54%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 49.6rem){   /* 794px / 16 = 49.6 */
+    html {
+        font-size: 54%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 47.8rem){   /* 765px / 16 = 49.6 */
+    html {
+        font-size: 52%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 46.1rem){   /* 737px / 16 = 49.6 */
+    html {
+        font-size: 50%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 44.3rem){   /* 709px / 16 = 49.6 */
+    html {
+        font-size: 48%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+@media(max-width: 42.6rem){   /* 681px / 16 = 42.6 */
+    html {
+        font-size: 46%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 40.8rem){   /* 652px / 16 = 42.6 */
+    html {
+        font-size: 42%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 37.2rem){   /* 595px / 16 = 42.6 */
+    html {
+        font-size: 40%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 35.4rem){   /* 567px / 16 = 42.6 */
+    html {
+        font-size: 38%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 33.6rem){   /* 538px / 16 = 42.6 */
+    html {
+        font-size: 36%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}
+
+@media(max-width: 31.9rem){   /* 510px / 16 = 42.6 */
+    html {
+        font-size: 34%;     /* 60 /100 * 16 = 9.6*/
+    }
+    .line {
+        min-width: 375px;
+    }
+
+}
+
+@media(max-width: 30.1rem){   /* 482px / 16 = 42.6 */
+    html {
+        font-size: 32%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+    .line {
+        max-width: 340px;
+    }
+}
+
+
+@media(max-width: 28.3rem){   /* 453px / 16 = 42.6 */
+    html {
+        font-size: 30%;     /* 60 /100 * 16 = 9.6*/
+    }
+
+}

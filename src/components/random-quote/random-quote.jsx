@@ -92,24 +92,23 @@ const RandomQuote = () => {
         setQuote(select);
     };
 
+    
 
 
-     
      return (
         <div className="quote-container">
-            <div className="quote">{quote.text}</div>
-            <div>
-                <div className="line"></div>
-                <div className="bottom">
-                    <div className="author">{quote.author}</div>
-                    <div className="icons">
-                        <img src={arrow_right} onClick={random} alt="" />
+                <div className="quote">{quote.text}</div>
+                <div>
+                    <div className="line"></div>
+                    <div className="bottom">
+                        <div className="author">{quote.author}</div>
+                        <div className="icons">
+                            <img src={arrow_right} onClick={random} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-     )
-        
-}
+        )
+    };
 
 export default RandomQuote
